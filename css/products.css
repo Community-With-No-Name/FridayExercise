@@ -1,0 +1,44 @@
+.text-center {
+    text-align: center;
+}
+.cakes {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    /* background: #eee; */
+}
+.cake {
+    padding: 0px 10px;
+    background: #fff;
+}
+.cake-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+.transition {
+    transition: all .5s;
+}
+.scale:hover {
+    transform: scale(1.1);
+}
+.cake-price {
+    display: flex;
+    justify-content: space-between;
+}
+.view-btn {
+    background-color: #f7bb00;
+    color: #fff;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px 25px;
+    font-size: 18px;
+}
+.view-btn:hover {
+    background-color: #fff;
+    border: 3px solid #f7bb00;
+    color: #f7bb00;
+}
